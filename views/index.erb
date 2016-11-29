@@ -1,0 +1,28 @@
+<h1>Find out how much it will cost to ship your parcel! </h1>
+
+<form action = "/parc_info">
+  <div class = "form-group">
+    <label for = "height"> Height of your parcel in inches </label>
+    <input id = "height" name = "height" class = "form-control" type = "text">
+  </div>
+  <div class = "form-group">
+    <label for = "width"> Width of your parcel in inches </label>
+    <input id = "width" name = "width" class = "form-control" type = "text">
+  </div>
+  <div class = "form-group">
+    <label for = "length"> Length of your parcel in inches </label>
+    <input id = "length" name = "length" class = "form-control" type = "text">
+  </div>
+  <div class = "form-group">
+    <label for = "distance"> How many miles is your parcel traveling? </label>
+    <input id = "distance" name = "distance" class = "form-control" type = "text">
+  </div>
+  <div>
+    <select class="form-control" name="user_choice">
+        <option value="Snails Pace">Snails Pace</option>
+        <option value="Donkey Back">Donkey Back</option>
+        <option value="Carrier Pigeon">Carrier Pigeon</option>
+    </select>
+  </div>
+  <button type="submit" name="button">Find Out Your Price</button>
+</form>
